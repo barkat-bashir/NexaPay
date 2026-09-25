@@ -25,3 +25,4 @@ create_frontend_commits.ps1
 node_modules/
 dist/
 .vite/
+/logs/
