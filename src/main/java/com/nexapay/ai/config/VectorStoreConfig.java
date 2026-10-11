@@ -29,7 +29,7 @@ public class VectorStoreConfig {
                                   @Value("${spring.ai.vectorstore.pgvector.distance-type:COSINE_DISTANCE}") PgVectorStore.PgDistanceType distanceType) {
         boolean hasPgVector = false;
         try {
-            Integer count = jdbcTemplate.queryForObject(
+            Integer count = jdbcTemplate.queryForObject( 
                     "SELECT COUNT(*) FROM pg_extension WHERE extname = 'vector'", Integer.class);
             hasPgVector = (count != null && count > 0);
         } catch (Exception e) {
