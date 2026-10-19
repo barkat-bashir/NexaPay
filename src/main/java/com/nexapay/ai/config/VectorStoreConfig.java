@@ -18,7 +18,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 @Profile("!test")
 public class VectorStoreConfig {
 
-    private static final Logger log = LoggerFactory.getLogger(VectorStoreConfig.class);
+    private static final Logger log = LoggerFactory.getLogger(VectorStoreConfig.class); 
 
     @Bean
     @Primary
