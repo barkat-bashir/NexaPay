@@ -32,7 +32,7 @@ public class AuthorizationService {
     private final MerchantRepository merchantRepository;
     private final TransactionRepository transactionRepository;
     private final AuthorizationRepository authorizationRepository;
-    private final DeclineCodeRepository declineCodeRepository;
+    private final DeclineCodeRepository declineCodeRepository; 
 
     public AuthorizationService(
             CardService cardService,
