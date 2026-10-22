@@ -420,7 +420,7 @@ Ensures package boundaries in the modular monolith remain uncompromised:
 ### 2. AI Investigation Ground-Truth Benchmark
 Validates LLM precision, tool selection, and absence of hallucination:
 ```bash
-./mvnw test -Dtest=AiInvestigationBenchmarkTest
+./mvnw test -Dtest=AiInvestigationBenchmarkTest 
 ```
 
 ### 3. Run All Tests
