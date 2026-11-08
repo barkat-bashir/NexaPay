@@ -12,7 +12,7 @@ export const getAuthToken = () => currentAuthToken;
 
 export const apiFetch = async <T>(endpoint: string, options: RequestInit = {}): Promise<T> => {
   const headers = new Headers(options.headers || {});
-  
+
   if (!headers.has('Content-Type')) {
     headers.set('Content-Type', 'application/json');
   }
