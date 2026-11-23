@@ -16,7 +16,7 @@
 [Architectural Manifesto](#-architectural-manifesto) • [System Architecture](#-system-architecture) • [Domain Modules](#-core-domain-modules) • [AI Operations Plane](#-ai-operations--intelligence-plane) • [Frontend Dashboard](#-frontend-experience) • [Quickstart](#-getting-started) • [API Reference](#-api-specification)
 
 </div>
-
+ 
 ---
 
 ## 📖 Executive Summary
